@@ -1,0 +1,23 @@
+.Question{
+    height: 30%;
+    background-color: rgb(49, 49, 49);
+    border: 1px solid rgb(63, 63, 63);
+    display: flex;
+    border-radius: 10px;
+}
+.Question-img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.Question-content{
+    margin: 10%;
+}
+
+.question-item{
+    height: 40px;
+    list-style: none;
+    font-size: 30px;
+}

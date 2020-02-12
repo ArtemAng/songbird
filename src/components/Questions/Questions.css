@@ -1,0 +1,29 @@
+.Questions{
+    display: flex;
+    background-color: rgb(37, 114, 88);
+    /* border-radius: 5px; */
+    height: 15%;
+    padding: 0;
+    min-height: 30px;
+    flex-wrap: wrap;
+}
+
+.TopItem{
+    min-width: 16.66%;
+    /* min-width: 100px; */
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+.page-item.active
+.page-link{
+    background-color: #00bc8c;
+    border-color: #007c5d;
+}
+
+.page-item
+.page-link{
+    color: #fff;
+    background-color: #008966;
+    border-color: #007c5d;
+}

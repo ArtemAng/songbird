@@ -1,0 +1,26 @@
+.answers-list-item{
+    /* height: 25px;
+    padding-top: 5%; */
+    background-color: rgb(49, 49, 49);
+    border-bottom: 1px solid rgb(63, 63, 63);
+    width: 100%;
+    display: flex;
+}
+.answers-list-item:hover{
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+}
+.indicator{
+    width: 10px;
+    height: 10px;
+    margin: 7px;
+    border-radius: 50%;
+    background-color: rgb(110, 110, 110);
+}
+
+.error{
+    background-color: red;
+}
+.correct{
+    background-color: green;
+}

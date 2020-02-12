@@ -1,0 +1,9 @@
+.answers-list {
+    height: 296px;
+    background-color: rgb(49, 49, 49);
+    border: 1px solid rgb(63, 63, 63);
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-top: 16px;
+}
