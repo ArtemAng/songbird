@@ -11,6 +11,7 @@ const Question = ({ correctAns }) => {
                 <li className={'question-item'}>{(correctAns!==undefined) ?(correctAns.isClicked ? correctAns.name : '******'):bird}</li>
                 <li className={'question-item'}>    
                     <audio controls>
+                        
                         <source src={(correctAns!==undefined)? correctAns.audio: ''} type="audio/mp3; codecs=vorbis" />
                         <source src={(correctAns!==undefined)? correctAns.audio: ''} type="audio/mpeg" />
                     </audio>
