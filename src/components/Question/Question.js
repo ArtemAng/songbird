@@ -9,8 +9,9 @@ const Question = ({ correctAns }) => {
             <img src={(correctAns!==undefined) ? (correctAns.isClicked? correctAns.logo : bird):bird} alt={'bird'} className={'Question-img'} />
             <ul className={'question-content'}>
                 <li className={'question-item'}>{(correctAns!==undefined) ?(correctAns.isClicked ? correctAns.name : '******'):bird}</li>
-                <li className={'question-item'}>
+                <li className={'question-item'}>    
                     <audio controls>
+                        
                         <source src={(correctAns!==undefined)? correctAns.audio: ''} type="audio/mp3; codecs=vorbis" />
                         <source src={(correctAns!==undefined)? correctAns.audio: ''} type="audio/mpeg" />
                     </audio>
